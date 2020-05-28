@@ -9,7 +9,7 @@ send "jdwis \033:wq\r"
 expect "# This is a"
 
 # skip past first commit message (assumed to be one line), delete rest of file
-# down 4, delete 3 lines, save and quit
+# down 4, delete remaining lines, save and quit
 send "4jdG\r:wq\r"
 
 interact
