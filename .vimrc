@@ -8,6 +8,7 @@ set incsearch
 set ruler
 set smartindent
 
+" note that expand tab doesn't work in "paste" mode
 set expandtab
 set shiftwidth=2
 set softtabstop=2
