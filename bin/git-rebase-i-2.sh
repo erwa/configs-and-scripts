@@ -3,8 +3,8 @@
 spawn git rebase -i HEAD~2
 
 # change the second "pick" to "squash"
-# down, delete word, insert 's' (for squash), Escape, save and quit
-send "jdwis \033:wq\r"
+# jump to top (if not there), down, delete word, insert 's' (for squash), Escape, save and quit
+send "ggjdwis \033:wq\r"
 
 expect "# This is a"
 
